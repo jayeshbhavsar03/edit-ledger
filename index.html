@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <h1 class="heading text-center my-3">Edit Ledger (With Content)</h1>
+    <div class="container cont" id="shadow">
+        <form class="container">
+            <label for="name" class="header">Name</label>
+            <div class="line">
+                <input type="text" class="form-control form-control-sm name" id="shadow"
+                    placeholder="Enter product name" name="name" id="name">
+                <button type="reset" class="btn btn-primary btn-sm btn-d">Clear</button>
+            </div>
+
+            <label for="name" class="header">Name</label>
+            <div class="line">
+                <input type="text" class="form-control form-control-sm name" id="shadow"
+                    placeholder="Enter product name" name="name" id="name">
+                <button type="reset" class="btn btn-primary btn-sm btn-d">Clear</button>
+            </div>
+
+            <label for="category" class="header cat">Category <i class="fa fa-sort" style="font-size:10px"></i></label>
+            <select class="form-control form-control-sm category" id="exampleFormControlSelect1">
+                <option>General Ledger</option>
+                <option>Purchasr Ledger</option>
+                <option>Sales Ledger</option>
+            </select>
+
+            <label for="amount" class="header">Amount</label>
+            <div class="line">
+                <input type="number" class="form-control form-control-sm name2" id="shadow" placeholder="Enter amount"
+                    name="name" id="name">
+                <button type="reset" class="btn btn-primary btn-sm btn-d">Clear</button>
+            </div>
+
+            <label for="amount" class="header">Quantity <i class="fa fa-sort" style="font-size:10px"></i></label>
+            <div class="line">
+                <input type="number" class="form-control form-control-sm name2" id="shadow" placeholder="Enter quantity"
+                    name="name" id="name">
+                <button type="reset" class="btn btn-primary btn-sm btn-d">Clear</button>
+            </div>
+
+            <label for="created-date" class="header2 cat">Created Date <i class="fa fa-sort" style="font-size:10px"></i></label>
+            <div class="line2">
+            <input type="date" name="created-date" class="name2" id="shadow2">
+            <button type="reset" class="btn btn-primary btn-sm btn-d">Clear</button>
+            </div>
+            
+            <label for="created-date" class="header2">Due Date <i class="fa fa-sort" style="font-size:10px"></i></label>
+            <div class="line2">
+            <input type="date" name="created-date" class="name2" id="shadow2">
+            <button type="reset" class="btn btn-primary btn-sm btn-d">Clear</button>
+            </div>
+
+            <div class="form-group form-check text-center check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Set Reminder</label>
+              </div>
+
+              <div class="line3">
+                <button type="reset" class="btn btn-light btn-sm btn-d3" id="shadow2">Cancel</button>
+                <button type="submit" class="btn btn-primary btn-sm btn-d2">Save</button>
+                </div>
+        </form>
+    </div>
+    <!-- Bootstrap JavaScript -->
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
